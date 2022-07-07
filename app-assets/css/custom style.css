@@ -1,0 +1,55 @@
+.app-sidebar .logo-img img{
+    width: 42px;
+}
+.body-bg{
+    background-image: url(../img/Image\ 30.png)
+ 
+}
+.auth-page:not(.layout-dark){
+    background-image: url(../img/Image\ 30.png),
+    linear-gradient(-90deg, #e5e5e5, #7b2222)!important
+}
+.w-150{
+    width: 150px;
+}
+.auth-img-bg{
+    background-color: #E5E1E4;
+}
+.card-title{
+    color: #8A1739;
+}
+a {
+ 
+    color: #8A1739;
+
+}
+a:hover{
+ 
+    color: #250221;
+
+}
+.btn-primary {
+    color: #fff;
+    border-color: #8A1739;
+    background-color: #8A1739;
+}
+.btn-primary:hover {
+    color: #fff;
+    border-color: #250221;
+    background-color: #250221;
+}
+.badge-danger {
+    background-color: #8A1739;
+}
+.navbar-bg{
+    background-color: white;
+    box-shadow: 8px 8px 14px 0 rgb(203 195 202 / 55%);
+}
+body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
+  
+    border-left: solid 5px #fff;
+   
+}
+.cafe-bg{
+    background-color: #F8F7F8;
+}
