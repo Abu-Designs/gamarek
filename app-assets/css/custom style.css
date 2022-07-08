@@ -28,6 +28,10 @@ a:hover{
     color: #250221;
 
 }
+a:focus {
+    text-decoration: none;
+    color: #250221;
+}
 .btn-primary {
     color: #fff;
     border-color: #8A1739;
@@ -53,3 +57,17 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
 .cafe-bg{
     background-color: #F8F7F8;
 }
+
+.item .card-title{
+    color: #250221;
+}
+.text-enaby{
+    color: #7b2222 !important;
+}
+.side-table th, .table td {
+    padding: 1.15rem 0rem;}
+    .profile-pic{
+        border-radius:50px ;
+        width: 100px;
+        height: auto;
+    }
