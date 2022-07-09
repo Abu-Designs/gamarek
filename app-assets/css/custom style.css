@@ -36,12 +36,43 @@ a:focus {
     color: #fff;
     border-color: #8A1739;
     background-color: #8A1739;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .btn-primary:hover {
     color: #fff;
     border-color: #250221;
     background-color: #250221;
 }
+.btn-primary:focus, .btn-primary.focus{
+    border-color: #250221;
+    background-color: #250221;
+}
+.btn-secondary {
+    color: #fff;
+    border-color: #CBC3CA;
+    background-color: #a392a1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    border-color: #250221;
+    background-color: #250221;
+}
+.btn-outline-secondary {
+    color: #250221;
+    border-color: #250221;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    border-color: #250221;
+    background-color:#250221 !important;
+}
+
 .badge-danger {
     background-color: #8A1739;
 }
@@ -70,4 +101,61 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
         border-radius:50px ;
         width: 100px;
         height: auto;
+    }
+.nav-vertical li a{
+    color: #250221;
+}
+.nav-vertical li a:hover{
+    color: #7b2222;
+}
+.nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link.active {
+    border-bottom: 0;
+    border-left: 2px solid #7b2222 !important;}
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: #7b2222;
+      
+    }
+    .form-control{
+        background-color: #fff;
+        border: solid 1px #CBC3CA;
+    }
+    .form-control:focus{
+        background-color: #fff;
+        border: solid 1px #250221;
+    }
+    .custom-file-label {
+      
+        padding: 0.385rem 0.75rem;
+        background-color: #fff;
+       
+   
+     
+    }
+    .custom-file-input:lang(en) ~ .custom-file-label::after {
+   
+       
+            font-family: 'feather';
+         
+            content: '\e8e1';
+            background-color: #7b2222;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+    }
+    .btn-dark{
+        background-color: #7b2222;
+    }
+    
+
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: #250221;
+    box-shadow: none;}
+  
+    .custom-control-input:checked ~ .custom-control-label::before {
+        color: #fff;
+        border-color: #7b2222;
+        background-color:#7b2222;
+    }
+    .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+        border-color: #7b2222;
     }
