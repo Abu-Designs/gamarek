@@ -19,11 +19,11 @@
 }
 .swiper-centered-slides.swiper-container .swiper-slide.swiper-slide-active
 {
-    border: 2px solid #975aff;
+    border: 2px solid #7b2222;
 }
 .swiper-centered-slides.swiper-container .swiper-slide.swiper-slide-active i
 {
-    color: #975aff;
+    color: #7b2222;
 }
 
 .swiper-centered-slides .swiper-button-next:after,
@@ -38,7 +38,7 @@
     height: 2.35rem;
 
     border-radius: 50%;
-    background-color: #975aff;
+    background-color: #7b2222;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5) !important; 
 
     -webkit-box-align: center;
@@ -64,7 +64,7 @@
 .swiper-centered-slides-2.swiper-container .swiper-slide.swiper-slide-active
 {
     color: #fff;
-    background-color: #975aff;
+    background-color: #7b2222;
     box-shadow: 0 3px 6px 0 rgba(151, 90, 255, .5) !important;
 }
 

@@ -69,7 +69,7 @@
           font-weight: 400; }
       .chat-application .chat-sidebar .users-list-padding .selected-chat {
         background-color: #eee;
-        border-right: 3px solid #975AFF; }
+        border-right: 3px solid #7b2222; }
   .chat-application .chat-name {
     background-color: #fff;
     margin-left: 300px;
@@ -103,7 +103,7 @@
         margin: 0 20px 10px 0;
         clear: both;
         color: #fff;
-        background-color: #975AFF;
+        background-color: #7b2222;
         border-radius: 4px; }
         .chat-application .chats .chat-body .chat-content:before {
           position: absolute;
@@ -113,7 +113,7 @@
           height: 0;
           content: "";
           border: 5px solid transparent;
-          border-left-color: #975AFF; }
+          border-left-color: #7b2222; }
         .chat-application .chats .chat-body .chat-content + .chat-content:before {
           border-color: transparent; }
         .chat-application .chats .chat-body .chat-content p {

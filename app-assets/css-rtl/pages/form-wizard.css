@@ -47,7 +47,7 @@
 
     content: '';
 
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 .wizard > .steps > ul > li:after
 {
@@ -61,7 +61,7 @@
 
     content: '';
 
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 .wizard > .steps > ul > li:last-child:after
 {
@@ -69,11 +69,11 @@
 }
 .wizard > .steps > ul > li.current a
 {
-    color: #975aff !important;
+    color: #7b2222 !important;
 }
 .wizard > .steps > ul > li.current .step
 {
-    border-color: #975aff !important;
+    border-color: #7b2222 !important;
 }
 .wizard > .steps > ul > li.current:after
 {
@@ -92,8 +92,8 @@
 .wizard > .steps > ul > li.done .step
 {
     color: #fff; 
-    border-color: #975aff !important;
-    background-color: #975aff !important;
+    border-color: #7b2222 !important;
+    background-color: #7b2222 !important;
 }
 .wizard > .steps > ul > li.error .step
 {
@@ -185,6 +185,6 @@
     }
     .wizard > .steps > ul > li.current:after
     {
-        background-color: #975aff !important;
+        background-color: #7b2222 !important;
     }
 }

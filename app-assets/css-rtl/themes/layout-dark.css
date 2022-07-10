@@ -149,12 +149,12 @@ html body.layout-dark.layout-transparent .nav-tabs .nav-link.active
 
 html body.layout-dark.layout-transparent .nav-vertical .nav-left.nav-tabs .nav-link.active
 {
-    border-left-color: #efdeff !important;
+    border-left-color: #F8F7F8!important;
 }
 
 html body.layout-dark.layout-transparent .nav-vertical .nav-right.nav-tabs .nav-link.active
 {
-    border-right-color: #efdeff !important;
+    border-right-color: #F8F7F8!important;
 }
 
 html body.layout-dark.layout-transparent.nav-collapsed.menu-collapsed .sidebar-background
@@ -946,12 +946,12 @@ html body.layout-dark:not(.layout-transparent) .form-control[readonly]
 
 html body.layout-dark.layout-transparent .form-control:focus
 {
-    border-color: #975aff;
+    border-color: #7b2222;
 }
 
 html body.layout-dark:not(.layout-transparent) .form-control:focus
 {
-    border-color: #975aff;
+    border-color: #7b2222;
 }
 
 html body.layout-dark.layout-transparent .form-control.tagging .type-zone
@@ -1926,8 +1926,8 @@ body.layout-dark .dropdown-menu .arrow-right:after
 
 body.layout-dark .pagination .page-item.active .page-link
 {
-    border-color: #975aff !important;
-    background-color: #975aff !important;
+    border-color: #7b2222 !important;
+    background-color: #7b2222 !important;
 }
 
 body.layout-dark .modal-content .close
@@ -1942,8 +1942,8 @@ body.layout-dark .list-group .list-group-item
 
 body.layout-dark .list-group .list-group-item.active
 {
-    border-color: #975aff !important;
-    background-color: #975aff;
+    border-color: #7b2222 !important;
+    background-color: #7b2222;
 }
 
 body.layout-dark .nav-tabs .nav-item.dropdown.show a.nav-link.dropdown-toggle
@@ -2013,7 +2013,7 @@ body.layout-dark .media-wrapper .plyr--audio .plyr__controls .plyr__time--curren
 
 body.layout-dark .bootstraptreeview .colorful-treeview .list-group .list-group-item
 {
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 
 body.layout-dark .bootstraptreeview .colorful-treeview .list-group .list-group-item:hover
@@ -2045,7 +2045,7 @@ body.layout-dark .context-menu-list .context-menu-item
 body.layout-dark .context-menu-list .context-menu-item.context-menu-hover
 {
     color: #fff;
-    background-color: #975aff !important;
+    background-color: #7b2222 !important;
 }
 
 body.layout-dark .ql-toolbar.ql-snow .ql-formats .ql-picker

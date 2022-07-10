@@ -98,7 +98,7 @@ $(document).ready(function () {
     events: [{
         title: 'All Day Event',
         start: '2019-10-01',
-        color: '#975AFF'
+        color: '#7b2222'
       },
       {
         title: 'Long Event',
@@ -144,7 +144,7 @@ $(document).ready(function () {
         title: 'Click for Google',
         url: 'http://google.com/',
         start: '2019-10-28',
-        color: '#975AFF'
+        color: '#7b2222'
       }
     ],
     drop: function (info) {

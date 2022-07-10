@@ -12,12 +12,12 @@
 .lineArea1 .ct-series-a .ct-area
 {
     fill-opacity: .3;
-    fill: #975aff;
+    fill: #7b2222;
 }
 
 .lineArea1 .ct-series-b .ct-area
 {
-    fill: #975aff;
+    fill: #7b2222;
     fill-opacity: .6;
 }
 
@@ -148,7 +148,7 @@
 
 .bi-polar-chart .ct-series-a .ct-area
 {
-    fill: #975aff;
+    fill: #7b2222;
 }
 
 .bi-polar-chart .ct-series-b .ct-area

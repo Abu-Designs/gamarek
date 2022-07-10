@@ -116,7 +116,7 @@
 .email-application .email-app-sidebar .email-app-sidebar-content .list-group-messages a.list-group-item.active
 {
     color: #fff !important; 
-    background-color: #975aff !important;
+    background-color: #7b2222 !important;
 }
 .email-application .compose-new-mail-sidebar
 {
@@ -261,7 +261,7 @@
 .email-application .users-list-padding .selected-email
 {
     border: none;
-    border-left: 3px solid #975aff !important; 
+    border-left: 3px solid #7b2222 !important; 
     background-color: #eee;
 }
 .email-application .users-list-padding .selected-email:first-child,

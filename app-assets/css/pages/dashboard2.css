@@ -27,7 +27,7 @@
   filter: drop-shadow(0px 15px 6px rgba(151, 90, 255, 0.6)); }
 
 .WidgetlineChart.WidgetChart3 .ct-line {
-  stroke: #975AFF; }
+  stroke: #7b2222; }
 
 .WidgetlineChart.WidgetChart4.WidgetlineChartShadow {
   -webkit-filter: drop-shadow(0px 15px 6px rgba(64, 192, 87, 0.6));
@@ -118,7 +118,7 @@
 .dash2-user img {
   width: 6.5rem;
   background-color: transparent;
-  border: 2px solid #975AFF;
+  border: 2px solid #7b2222;
   padding: 0.4rem; }
 
 .dash2-progress {
@@ -142,7 +142,7 @@
 
 .lineAreaChart .ct-series-a .ct-point-circle,
 .lineAreaChart .ct-series-a .ct-line {
-  stroke: #975AFF; }
+  stroke: #7b2222; }
 
 .lineAreaChart .ct-series-b .ct-area {
   fill: #F9877C;

@@ -23,16 +23,16 @@
   background: #000000 !important; }
 
 .slider-primary .noUi-connect {
-  background: #975AFF !important; }
+  background: #7b2222 !important; }
 
 .slider-primary.noUi-connect {
-  background: #975AFF !important; }
+  background: #7b2222 !important; }
 
 .slider-primary .noUi-handle {
-  border-color: #975AFF !important; }
+  border-color: #7b2222 !important; }
 
 .slider-primary.circle-filled .noUi-handle, .slider-primary.square .noUi-handle {
-  background: #975AFF !important; }
+  background: #7b2222 !important; }
 
 .slider-secondary .noUi-connect {
   background: #616D89 !important; }

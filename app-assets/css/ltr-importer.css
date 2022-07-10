@@ -15,6 +15,7 @@
 @import url(themes/layout-dark.css);
 @import url(plugins/switchery.css);
 @import url(pages/dashboard1.css);
+@import url(../vendors/css/pickadate/pickadate.css);
 @import url(custom\ style.css);
 
 

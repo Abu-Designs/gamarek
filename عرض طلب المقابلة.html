@@ -9,7 +9,7 @@
     <meta name="description" content="Apex admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Apex admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Dashboard1 - Apex responsive bootstrap 4 admin template</title>
+    <title>Dashboard1 - Apex responsive bootstrap 4  </title>
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/img/ico/favicon.ico">
     <link rel="shortcut icon" type="image/png" href="app-assets/img/ico/favicon-32.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,11 +18,11 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
   
 
-    
     <!-- RTL-->
+
+
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/importer.css">
     <!-- END:RTL-->
-
 
 
     <!-- TO CHANGE TO LTR 
@@ -506,10 +506,10 @@
                                                     <a class="nav-link" id="baseVerticalLeft-tab2" data-toggle="tab" aria-controls="tabVerticalLeft2" href="#tabVerticalLeft2" aria-expanded="false">بيانات الموظف</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link active" id="baseVerticalLeft-tab3" data-toggle="tab" aria-controls="tabVerticalLeft3" href="#tabVerticalLeft3" aria-expanded="false">موضوع المقابلة </a>
+                                                    <a class="nav-link " id="baseVerticalLeft-tab3" data-toggle="tab" aria-controls="tabVerticalLeft3" href="#tabVerticalLeft3" aria-expanded="false">موضوع المقابلة </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link " id="baseVerticalLeft-tab4" data-toggle="tab" aria-controls="tabVerticalLeft4" href="#tabVerticalLeft4" aria-expanded="false">اتخاذ اجراء  </a>
+                                                    <a class="nav-link active" id="baseVerticalLeft-tab4" data-toggle="tab" aria-controls="tabVerticalLeft4" href="#tabVerticalLeft4" aria-expanded="false">اتخاذ اجراء  </a>
                                                 </li>
                                             </ul>
                                             <div class="tab-content">
@@ -626,59 +626,65 @@
                                     </div>
                                                        </div>
                                                 </div>
-                                                <div class="tab-pane active" id="tabVerticalLeft3" aria-labelledby="baseVerticalLeft-tab3">
+                                                <div class="tab-pane " id="tabVerticalLeft3" aria-labelledby="baseVerticalLeft-tab3">
                                                     <div class="container cafe-bg pt-3 pb-3 border">
                                                         <div class=" row">
                                                             <div class="col-md-6 col-12">
-                                                                <label for="inputGroupFile01"> سبب المقابلة </label>
                                                                 <fieldset class="form-group">
-                                                                    <select class="form-control" id="basicSelect">
-                                                                        <option>1</option>
-                                                                        <option>2 </option>
-                                                                        <option>3 </option>
-                                                                    </select>
+                                                                    <label>  سبب المقابلة  </label>
+                                                                    <p class="form-control-static" id="staticInput">السبب هنا </p>
                                                                 </fieldset>
+                                                               
                                                             </div>
                                                             <div class="col-md-6 col-12">
                                                                 <fieldset class="form-group">
-                                                                    <label for="inputGroupFile01">رفع الملفات</label>
-                                                                    <div class="custom-file">
-                                                                        <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                                                        <label class="custom-file-label" for="inputGroupFile01">اختر ملف </label>
-                                                                    </div>
+                                                                    <label>   رفع الملفات  </label>
+                                                                 
+                                                                    <p class="form-control-static" id="staticInput">   <a href="">ملف.pdf</a>  </p>
                                                                 </fieldset>
+                                                                
                                                             </div>
                                                             <div class="col-sm-12">
                                                                 <div class="form-group">
                                                                     <label for="exampleFormControlTextarea1">موضوع المقابلة </label>
-                                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                                    <p class="form-control-static" id="staticInput">  موضوع المقابلة هنا </p>
                                                                   </div>
                                                             </div>
 
                                                         </div>
-                                                        <div class="d-flex ">
-                                                            <div class="ml-auto">
-                                                                <button type="button" class="btn btn-outline-secondary mb-1 mr-1 ml-1 ">الغاء</button>
-                                                                <button type="button" class="btn btn-secondary  mb-1 mr-1 ml-1 ">حفظ</button>
-                                                                <button type="button" class="btn btn-primary mb-1 mr-1 ml-1  ">ارسال</button>
-                                                            </div>
-                                                        
-
-                                                        </div>
+                                  
                                                         </div>
                                                 </div>
-                                                <div class="tab-pane " id="tabVerticalLeft4" aria-labelledby="baseVerticalLeft-tab4">
+                                                <div class="tab-pane active " id="tabVerticalLeft4" aria-labelledby="baseVerticalLeft-tab4">
                                                     <div class="container cafe-bg pt-3 pb-3 border">
                                                         <div class=" row">
+                                                         
                                                             <div class="col-md-12 ">
-                                                             <div class="d-flex ">
-                                                                <button type="button" class="btn btn-secondary  mb-1 mr-1 ml-1 ">حفظ</button>
-                                                                <button type="button" class="btn btn-primary mb-1 mr-1 ml-1  ">تحويل للرئيس</button>
-
-                                                             </div>
+                                                                <ul class="list-unstyled mb-0">
+                                                                    <li class="d-inline-block mr-2">
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="basic-radio-1" id="radio1" checked="">
+                                                                            <label for="radio1">حفظ</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="d-inline-block mr-2">
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="basic-radio-1" id="radio2">
+                                                                            <label for="radio2">تحويل للرئيس</label>
+                                                                        </div>
+                                                                    </li>
+                                                               
+                                                                </ul>
+                                                              
+                                                              
+                                                                  
+                                                                 
+                                                           
                                                             </div>
                                                         
                                                             <div class="col-sm-12">
+                                                                <p><code>فى حالة اختيار  زر حفظ نظهر text erea لكتابة سبب الحفظ </code></p>
+
                                                                 <div class="form-group">
                                                                     <label for="exampleFormControlTextarea1"> سبب الحفظ </label>
                                                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -698,7 +704,51 @@
                                                         
 
                                                         </div>
+                                                        <p><code>  وفى حالة اختيار زر تحويل للرئيس تظهر لموظف مكتب الرئيس section  التاريخ والوقت  </code></p>
+
+                                                    <h5>
+                                                        تحديد موعد وتاريخ
+                                                    </h5> 
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label>التاريخ</label>
+
+                                                            <div class="input-group">
+
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <span class="ft-calendar font-medium-2"></span>
+                                                                    </span>
+                                                                </div>
+                                                                <input type='text' class="form-control pickadate" placeholder="12.11.2022">
+                                                            </div>
                                                         </div>
+                                                       <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label>الوقت</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <span class="ft-clock"></span>
+                                                                    </span>
+                                                                </div>
+                                                                <input type="text" class="form-control pickatime picker__input" placeholder="Basic Pick-a-time" readonly="" id="P327494325" aria-haspopup="true" aria-readonly="false" aria-owns="P327494325_root"><div class="picker picker--time" id="P327494325_root" aria-hidden="true"><div class="picker__holder" tabindex="-1" style=""><div class="picker__frame"><div class="picker__wrap"><div class="picker__box"><ul class="picker__list" role="listbox" aria-controls="P327494325"><li class="picker__list-item" data-pick="0" role="option" aria-label="12:00 AM">12:00 AM</li><li class="picker__list-item" data-pick="30" role="option" aria-label="12:30 AM">12:30 AM</li><li class="picker__list-item" data-pick="60" role="option" aria-label="1:00 AM">1:00 AM</li><li class="picker__list-item picker__list-item--selected picker__list-item--highlighted picker__list-item--viewset" data-pick="90" role="option" aria-label="1:30 AM" aria-selected="true" aria-activedescendant="true">1:30 AM</li><li class="picker__list-item" data-pick="120" role="option" aria-label="2:00 AM">2:00 AM</li><li class="picker__list-item" data-pick="150" role="option" aria-label="2:30 AM">2:30 AM</li><li class="picker__list-item" data-pick="180" role="option" aria-label="3:00 AM">3:00 AM</li><li class="picker__list-item" data-pick="210" role="option" aria-label="3:30 AM">3:30 AM</li><li class="picker__list-item" data-pick="240" role="option" aria-label="4:00 AM">4:00 AM</li><li class="picker__list-item" data-pick="270" role="option" aria-label="4:30 AM">4:30 AM</li><li class="picker__list-item" data-pick="300" role="option" aria-label="5:00 AM">5:00 AM</li><li class="picker__list-item" data-pick="330" role="option" aria-label="5:30 AM">5:30 AM</li><li class="picker__list-item" data-pick="360" role="option" aria-label="6:00 AM">6:00 AM</li><li class="picker__list-item" data-pick="390" role="option" aria-label="6:30 AM">6:30 AM</li><li class="picker__list-item" data-pick="420" role="option" aria-label="7:00 AM">7:00 AM</li><li class="picker__list-item" data-pick="450" role="option" aria-label="7:30 AM">7:30 AM</li><li class="picker__list-item" data-pick="480" role="option" aria-label="8:00 AM">8:00 AM</li><li class="picker__list-item" data-pick="510" role="option" aria-label="8:30 AM">8:30 AM</li><li class="picker__list-item" data-pick="540" role="option" aria-label="9:00 AM">9:00 AM</li><li class="picker__list-item" data-pick="570" role="option" aria-label="9:30 AM">9:30 AM</li><li class="picker__list-item" data-pick="600" role="option" aria-label="10:00 AM">10:00 AM</li><li class="picker__list-item" data-pick="630" role="option" aria-label="10:30 AM">10:30 AM</li><li class="picker__list-item" data-pick="660" role="option" aria-label="11:00 AM">11:00 AM</li><li class="picker__list-item" data-pick="690" role="option" aria-label="11:30 AM">11:30 AM</li><li class="picker__list-item" data-pick="720" role="option" aria-label="12:00 PM">12:00 PM</li><li class="picker__list-item" data-pick="750" role="option" aria-label="12:30 PM">12:30 PM</li><li class="picker__list-item" data-pick="780" role="option" aria-label="1:00 PM">1:00 PM</li><li class="picker__list-item" data-pick="810" role="option" aria-label="1:30 PM">1:30 PM</li><li class="picker__list-item" data-pick="840" role="option" aria-label="2:00 PM">2:00 PM</li><li class="picker__list-item" data-pick="870" role="option" aria-label="2:30 PM">2:30 PM</li><li class="picker__list-item" data-pick="900" role="option" aria-label="3:00 PM">3:00 PM</li><li class="picker__list-item" data-pick="930" role="option" aria-label="3:30 PM">3:30 PM</li><li class="picker__list-item" data-pick="960" role="option" aria-label="4:00 PM">4:00 PM</li><li class="picker__list-item" data-pick="990" role="option" aria-label="4:30 PM">4:30 PM</li><li class="picker__list-item" data-pick="1020" role="option" aria-label="5:00 PM">5:00 PM</li><li class="picker__list-item" data-pick="1050" role="option" aria-label="5:30 PM">5:30 PM</li><li class="picker__list-item" data-pick="1080" role="option" aria-label="6:00 PM">6:00 PM</li><li class="picker__list-item" data-pick="1110" role="option" aria-label="6:30 PM">6:30 PM</li><li class="picker__list-item" data-pick="1140" role="option" aria-label="7:00 PM">7:00 PM</li><li class="picker__list-item" data-pick="1170" role="option" aria-label="7:30 PM">7:30 PM</li><li class="picker__list-item" data-pick="1200" role="option" aria-label="8:00 PM">8:00 PM</li><li class="picker__list-item" data-pick="1230" role="option" aria-label="8:30 PM">8:30 PM</li><li class="picker__list-item" data-pick="1260" role="option" aria-label="9:00 PM">9:00 PM</li><li class="picker__list-item" data-pick="1290" role="option" aria-label="9:30 PM">9:30 PM</li><li class="picker__list-item" data-pick="1320" role="option" aria-label="10:00 PM">10:00 PM</li><li class="picker__list-item" data-pick="1350" role="option" aria-label="10:30 PM">10:30 PM</li><li class="picker__list-item" data-pick="1380" role="option" aria-label="11:00 PM">11:00 PM</li><li class="picker__list-item" data-pick="1410" role="option" aria-label="11:30 PM">11:30 PM</li><li role="presentation"><button class="picker__button--clear" type="button" data-clear="1" aria-controls="P327494325" disabled="disabled">Clear</button></li></ul></div></div></div></div></div>
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                    </div>
+                                                    <div class="d-flex ">
+                                                     
+                                                        <div class="ml-auto">
+                                                            <button type="button" class="btn btn-outline-secondary mb-1 mr-1 ml-1 ">الغاء</button>
+                                                            <button type="button" class="btn btn-primary mb-1 mr-1 ml-1   ">حفظ  وارسال رسالة للموظف</button>
+                                                        </div>
+                                                    
+
+                                                    </div>
+                                                       
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -706,397 +756,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class=" col-sm-12">
-                            <div class="card collapse-icon accordion-icon-rotate">
-                                <div class="card-header">
-                                    <h5 class="card-title">طلب مقابلة </h5>
-                                </div>
-                                <div class="card-body">
-                                 
-                                    
-                                    <div class="item">
-                                        <div id="headingCollapse11" class="card-header border-bottom pb-3">
-                                            <a data-toggle="collapse" href="#collapse11" aria-expanded="true" aria-controls="collapse11" class="card-title">بيانات الطلب</a>
-                                        </div>
-                                        <div id="collapse11" role="tabpanel" aria-labelledby="headingCollapse12" class="collapse " aria-expanded="false">
-                                            <div class="card-content">
-                                                <div class="card-body cafe-bg row">
-                                                    <div class="col-md-6">
-                                                        <fieldset class="form-group">
-                                                            <label>رقم المقابلة </label>
-                                                            <p class="form-control-static" id="staticInput">12223</p>
-                                                        </fieldset>
-                                                                                                              
-                                                     
-    
-                                                      
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <fieldset class="form-group">
-                                                            <label> تاريخ الادخال </label>
-                                                            <p class="form-control-static" id="staticInput">12-12-2021</p>
-                                                        </fieldset>
-                                                    </div>
-                                   
-                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div claitemss="">
-                                        <div id="headingCollapse12" class="card-header border-bottom pb-3">
-                                            <a data-toggle="collapse" href="#collapse12" aria-expanded="false" aria-controls="collapse12" class="card-title collapsed">بيانات الموظف</a>
-                                        </div>
-                                        <div id="collapse12" role="tabpanel" aria-labelledby="headingCollapse12" class="collapse show" aria-expanded="false">
-                                            <div class="card-content">
-                              
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div id="headingCollapse13" class="card-header border-bottom pb-3">
-                                            <a data-toggle="collapse" href="#collapse13" aria-expanded="false" aria-controls="collapse13" class="card-title collapsed">Collapsible Group 3</a>
-                                        </div>
-                                        <div id="collapse13" role="tabpanel" aria-labelledby="headingCollapse13" class="collapse" aria-expanded="false">
-                                            <div class="card-content">
-                                                <div class="card-body">Marshmallow donut sweet roll pie sweet roll sugar plum brownie pie. Soufflé donut pie icing sesame snaps tart topping chocolate. Cotton candy cupcake caramels. Bonbon ice cream lollipop wafer biscuit. Fruitcake candy canes jelly beans cake powder. Croissant cupcake carrot cake chocolate biscuit apple pie. Topping tootsie roll gummies cookie. Apple pie cake lemon drops chocolate chupa chups carrot cake wafer gingerbread cotton candy. Topping cookie cake gummi bears danish tiramisu. Croissant bonbon oat cake.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div id="headingCollapse14" class="card-header">
-                                            <a data-toggle="collapse" href="#collapse14" aria-expanded="false" aria-controls="collapse14" class="card-title collapsed">Collapsible Group 4</a>
-                                        </div>
-                                        <div id="collapse14" role="tabpanel" aria-labelledby="headingCollapse14" class="collapse" aria-expanded="false" style="height: 0px;">
-                                            <div class="card-content">
-                                                <div class="card-body pb-0">Ice cream toffee croissant gummies chocolate cake carrot cake candy canes carrot cake bear claw. Tiramisu jujubes cotton candy soufflé lemon drops. Muffin macaroon apple pie toffee. Carrot cake pastry cookie muffin icing. Tootsie roll chupa chups lemon drops lemon drops donut. Wafer pie caramels bonbon biscuit sweet. Topping sweet roll tart cookie bonbon marshmallow sesame snaps fruitcake. Brownie jelly oat cake macaroon cake cake macaroon chocolate bar cupcake. Halvah tart apple pie dragée muffin. Bear claw donut icing.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                     
                   
                     <!--طلب مقالبة Ends-->
 
-                    <div class="row match-height">
-                        <div class="col-xl-4 col-lg-12 col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Statistics</h4>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <p class="font-medium-2 text-center my-2">Last 6 Months Sales</p>
-                                        <div id="Stack-bar-chart" class="height-300 Stackbarchart mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-12 col-12">
-                            <div class="card shopping-cart">
-                                <div class="card-header pb-2">
-                                    <h4 class="card-title mb-1">Shopping Cart</h4>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-body p-0">
-                                        <div class="table-responsive">
-                                            <table class="table text-center m-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Image</th>
-                                                        <th>Product</th>
-                                                        <th>Quantity</th>
-                                                        <th>Status</th>
-                                                        <th>Amount</th>
-                                                        <th>Delete</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td><img class="height-50" src="app-assets/img/elements/01.png" alt="Generic placeholder image" /></td>
-                                                        <td>Espresso</td>
-                                                        <td>1</td>
-                                                        <td>
-                                                            <span class="badge badge-pill bg-light-primary cursor-pointer">Active</span>
-                                                        </td>
-                                                        <td>$19.94</td>
-                                                        <td>
-                                                            <i class="ft-trash-2"></i>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="height-50" src="app-assets/img/elements/15.png" alt="Generic placeholder image" /></td>
-                                                        <td>iPhone</td>
-                                                        <td>2</td>
-                                                        <td>
-                                                            <span class="badge badge-pill bg-light-danger cursor-pointer">Disabled</span>
-                                                        </td>
-                                                        <td>$99.00</td>
-                                                        <td>
-                                                            <i class="ft-trash-2"></i>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="height-50" src="app-assets/img/elements/11.png" alt="Generic placeholder image" /></td>
-                                                        <td>iMac</td>
-                                                        <td>1</td>
-                                                        <td>
-                                                            <span class="badge badge-pill bg-light-info cursor-pointer">Paused</span>
-                                                        </td>
-                                                        <td>$299.00</td>
-                                                        <td>
-                                                            <i class="ft-trash-2"></i>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="height-50" src="app-assets/img/elements/14.png" alt="Generic placeholder image" /></td>
-                                                        <td>iWatch</td>
-                                                        <td>2</td>
-                                                        <td>
-                                                            <span class="badge badge-pill bg-light-success cursor-pointer">Active</span>
-                                                        </td>
-                                                        <td>$24.51</td>
-                                                        <td>
-                                                            <i class="ft-trash-2"></i>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row match-height">
-                        <div class="col-xl-8 col-lg-12 col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title mb-0">Visit & Sales Statistics</h4>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <div class="chart-info mb-2">
-                                            <span class="text-uppercase mr-3"><i class="fa fa-circle success font-small-2 mr-1"></i> Sales</span>
-                                            <span class="text-uppercase"><i class="fa fa-circle info font-small-2 mr-1"></i> Visits</span>
-                                        </div>
-                                        <div id="line-area2" class="height-400 lineAreaDashboard">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-12 col-12">
-                            <div class="card gradient-purple-bliss">
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <h4 class="card-title white">Statistics</h4>
-                                        <div class="p-2 text-center">
-                                            <a class="white font-medium-1">Month</a>
-                                            <a class="btn round bg-light-info mx-3 px-3">Week</a>
-                                            <a class="white font-medium-1">Day</a>
-                                        </div>
-                                        <div class="my-3 text-center white">
-                                            <div class="font-large-2 d-block mb-1">
-                                                <span>$78.89</span>
-                                                <i class="ft-arrow-up font-large-2"></i>
-                                            </div>
-                                            <span class="font-medium-1">Week2 +15.44</span>
-                                        </div>
-                                    </div>
-                                    <div id="lineChart" class="height-250 lineChart lineChartShadow"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row match-height">
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Statistics</h4>
-                                </div>
-                                <div class="card-content">
-
-                                    <p class="font-medium-2 text-center mb-0 mt-2">Hobbies</p>
-                                    <div id="bar-chart" class="height-250 BarChartShadow BarChart">
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <span class="gradient-starfall d-block rounded-circle mx-auto mb-2" style="width:10px; height:10px;"></span>
-                                                <span class="font-medium-4 d-block mb-2">48</span>
-                                                <span class="font-small-3">Sport</span>
-                                            </div>
-                                            <div class="col text-center">
-                                                <span class="gradient-mint d-block rounded-circle mx-auto mb-2" style="width:10px; height:10px;"></span>
-                                                <span class="font-medium-4 d-block mb-2">9</span>
-                                                <span class="font-small-3">Music</span>
-                                            </div>
-                                            <div class="col text-center">
-                                                <span class="gradient-purple-bliss d-block rounded-circle mx-auto mb-2" style="width:10px; height:10px;"></span>
-                                                <span class="font-medium-4 d-block mb-2">26</span>
-                                                <span class="font-small-3">Travel</span>
-                                            </div>
-                                            <div class="col text-center">
-                                                <span class="gradient-ibiza-sunset d-block rounded-circle mx-auto mb-2" style="width:10px; height:10px;"></span>
-                                                <span class="font-medium-4 d-block mb-2">17</span>
-                                                <span class="font-small-3">News</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title mb-0">User List</h4>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <div class="media pt-0 pb-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-12.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Jessica Rice</h4>
-                                                <p class="text-muted font-small-3 m-0">UX Designer</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox1" checked="">
-                                                    <label for="dash-checkbox1"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media py-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-11.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Jacob Rios</h4>
-                                                <p class="text-muted font-small-3 m-0">HTML Developer</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox2">
-                                                    <label for="dash-checkbox2"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media py-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-3.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Russell Delgado</h4>
-                                                <p class="text-muted font-small-3 m-0">Database Designer</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox3">
-                                                    <label for="dash-checkbox3"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media py-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-22.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Sara McDonald</h4>
-                                                <p class="text-muted font-small-3 m-0">Team Leader</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox4" checked="">
-                                                    <label for="dash-checkbox4"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media py-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-18.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Janet Lucas</h4>
-                                                <p class="text-muted font-small-3 m-0">Project Manger</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox5">
-                                                    <label for="dash-checkbox5"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media py-2">
-                                            <img class="mr-3 avatar" src="app-assets/img/portrait/small/avatar-s-21.png" alt="Avatar" width="35">
-                                            <div class="media-body">
-                                                <h4 class="font-medium-1 mb-0">Mark Carter</h4>
-                                                <p class="text-muted font-small-3 m-0">HTML Developer</p>
-                                            </div>
-                                            <div class="mt-1">
-                                                <div class="checkbox">
-                                                    <input type="checkbox" id="dash-checkbox6" checked>
-                                                    <label for="dash-checkbox6"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-center mt-2">
-                                            <button type="button" class="btn bg-light-primary">Add New</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Project Stats</h4>
-                                </div>
-                                <div class="card-content">
-
-                                    <p class="font-medium-2 text-center mb-0 mt-2">Project Tasks</p>
-                                    <div id="donut-dashboard-chart" class="height-250 donut">
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="row mb-3">
-                                            <div class="col">
-                                                <span class="mb-1 text-muted d-block">23% - Started</span>
-                                                <div class="progress" style="height: 5px;">
-                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 23%;" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <span class="mb-1 text-muted d-block">28% - Done</span>
-                                                <div class="progress" style="height: 5px;">
-                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 28%;" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <div class="col">
-                                                <span class="mb-1 text-muted d-block">35% - Remaining</span>
-                                                <div class="progress" style="height: 5px;">
-                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <span class="mb-1 text-muted d-block">14% - In Progress</span>
-                                                <div class="progress" style="height: 5px;">
-                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 14%;" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div>
             <!-- END : End Main Content-->
 
             <!-- BEGIN : Footer-->
-            <footer class="footer undefined undefined">
-                <p class="clearfix text-muted m-0"><span>Copyright &copy; 2020 &nbsp;</span><a href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" id="pixinventLink" target="_blank">PIXINVENT</a><span class="d-none d-sm-inline-block">, All rights reserved.</span></p>
+            <footer class="footer undefined undefined navbar-bg">
+                <p class="clearfix text-muted m-0"><span>حقوق الطبع والنشر &copy; 2022 &nbsp;</span><a href="https://www.customs.gov.qa/arabic/pages/default.aspx" id="pixinventLink" target="_blank">الهيئة العامة للجمارك</a><span class="d-none d-sm-inline-block"></span></p>
             </footer>
             <!-- End : Footer-->
             <!-- Scroll to top button -->
@@ -1321,11 +994,15 @@
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
     <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN VENDOR JS-->
     <script src="app-assets/vendors/js/vendors.min.js"></script>
     <script src="app-assets/vendors/js/switchery.min.js"></script>
     <!-- BEGIN VENDOR JS-->
     <!-- BEGIN PAGE VENDOR JS-->
-    <script src="app-assets/vendors/js/chartist.min.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.date.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.time.js"></script>
+    <script src="app-assets/vendors/js/pickadate/legacy.js"></script>
     <!-- END PAGE VENDOR JS-->
     <!-- BEGIN APEX JS-->
     <script src="app-assets/js/core/app-menu.js"></script>
@@ -1335,8 +1012,11 @@
     <script src="app-assets/js/scroll-top.js"></script>
     <!-- END APEX JS-->
     <!-- BEGIN PAGE LEVEL JS-->
-    <script src="app-assets/js/dashboard1.js"></script>
+    <script src="app-assets/js/form-datetimepicker.js"></script>
     <!-- END PAGE LEVEL JS-->
+    <!-- BEGIN: Custom CSS-->
+    <script src="assets/js/scripts.js"></script>
+    <!-- END: Custom CSS-->
    
 </body>
 <!-- END : Body-->

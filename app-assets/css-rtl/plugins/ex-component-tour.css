@@ -1,11 +1,11 @@
 .tour-container.shadow-md
 {
     border-radius: .35rem; 
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 .tour-container.shadow-md .shepherd-arrow:before
 {
-    background-color: #975aff !important;
+    background-color: #7b2222 !important;
 }
 .tour-container.shadow-md .shepherd-content
 {
@@ -48,9 +48,9 @@
 }
 .tour-container.shadow-md .shepherd-content .shepherd-footer .shepherd-button:hover
 {
-    color: #975aff !important; 
-    border-color: #efdeff !important;
-    background-color: #efdeff !important;
+    color: #7b2222 !important; 
+    border-color: #F8F7F8!important;
+    background-color: #F8F7F8!important;
 }
 .tour-container.shadow-md[data-popper-placement='bottom']
 {

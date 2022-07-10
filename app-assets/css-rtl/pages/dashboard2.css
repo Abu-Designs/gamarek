@@ -44,7 +44,7 @@
 
 .WidgetlineChart.WidgetChart3 .ct-line
 {
-    stroke: #975aff;
+    stroke: #7b2222;
 }
 
 .WidgetlineChart.WidgetChart4.WidgetlineChartShadow
@@ -191,7 +191,7 @@
     width: 6.5rem;
     padding: .4rem; 
 
-    border: 2px solid #975aff;
+    border: 2px solid #7b2222;
     background-color: transparent;
 }
 
@@ -230,7 +230,7 @@
 .lineAreaChart .ct-series-a .ct-point-circle,
 .lineAreaChart .ct-series-a .ct-line
 {
-    stroke: #975aff;
+    stroke: #7b2222;
 }
 
 .lineAreaChart .ct-series-b .ct-area

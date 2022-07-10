@@ -11,9 +11,9 @@
   padding: 2rem 5.5rem;
   cursor: pointer; }
   .swiper-centered-slides.swiper-container .swiper-slide.swiper-slide-active {
-    border: 2px solid #975AFF; }
+    border: 2px solid #7b2222; }
     .swiper-centered-slides.swiper-container .swiper-slide.swiper-slide-active i {
-      color: #975AFF; }
+      color: #7b2222; }
 
 .swiper-centered-slides .swiper-button-next:after,
 .swiper-centered-slides .swiper-button-prev:after {
@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #975AFF;
+  background-color: #7b2222;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5) !important; }
 
 .swiper-centered-slides-2.swiper-container .swiper-slide {
@@ -34,7 +34,7 @@
   cursor: pointer; }
   .swiper-centered-slides-2.swiper-container .swiper-slide.swiper-slide-active {
     color: #fff;
-    background-color: #975AFF;
+    background-color: #7b2222;
     box-shadow: 0 3px 6px 0 rgba(151, 90, 255, 0.5) !important; }
 
 .swiper-cube-effect.swiper-container {

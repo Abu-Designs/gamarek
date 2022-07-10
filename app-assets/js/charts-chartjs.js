@@ -60,8 +60,8 @@ $(window).on("load", function () {
       data: [65, 59, 80, 81, 56, 55, 40],
       fill: false,
       borderDash: [5, 5],
-      borderColor: "#975AFF",
-      pointBorderColor: "#975AFF",
+      borderColor: "#7b2222",
+      pointBorderColor: "#7b2222",
       pointBackgroundColor: "#FFF",
       pointBorderWidth: 2,
       pointHoverBorderWidth: 2,
@@ -408,7 +408,7 @@ var chartData = {
   datasets: [{
     label: "My First dataset",
     data: [65, 59, 80, 81, 56],
-    backgroundColor: "#975AFF",
+    backgroundColor: "#7b2222",
     hoverBackgroundColor: "rgba(151, 90, 255, 0.9)",
     borderColor: "transparent"
   }, {
@@ -445,7 +445,7 @@ var chartData = {
   datasets: [{
     label: "My First dataset",
     data: [85, 65, 34, 45, 35],
-    backgroundColor: ['#975AFF', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
+    backgroundColor: ['#7b2222', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
   }]
 };
 var config = {
@@ -474,7 +474,7 @@ var chartData = {
   datasets: [{
     label: "My First dataset",
     data: [65, 35, 24, 45, 85],
-    backgroundColor: ['#975AFF', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
+    backgroundColor: ['#7b2222', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
   }]
 };
 var config = {
@@ -518,7 +518,7 @@ var chartData = {
   labels: ["January", "February", "March", "April", "May"],
   datasets: [{
     data: [65, 59, 80, 81, 56],
-    backgroundColor: ['#975AFF', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
+    backgroundColor: ['#7b2222', '#F77E17', '#40C057', '#F55252', '#2F8BE6'],
     label: 'My dataset' // for legend
   }],
 };
@@ -562,7 +562,7 @@ var chartData = {
     label: "My First dataset",
     backgroundColor: "rgba(151, 90, 255, 0.3)",
     borderColor: "transparent",
-    pointBorderColor: "#975AFF",
+    pointBorderColor: "#7b2222",
     pointBackgroundColor: "#FFF",
     pointBorderWidth: 2,
     pointHoverBorderWidth: 2,
@@ -576,7 +576,7 @@ var chartData = {
     label: "My Second dataset",
     backgroundColor: "rgba(151, 90, 255, 0.8)",
     borderColor: "transparent",
-    pointBorderColor: "#975AFF",
+    pointBorderColor: "#7b2222",
     pointBackgroundColor: "#FFF",
     pointBorderWidth: 2,
     pointHoverBorderWidth: 2,

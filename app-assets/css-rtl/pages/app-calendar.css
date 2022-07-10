@@ -21,7 +21,7 @@
 
 .fc-button-primary
 {
-    color: #975aff;
+    color: #7b2222;
     border-color: #efdeff;
     outline: none !important; 
     background-color: #efdeff;
@@ -31,9 +31,9 @@
 .fc-button-primary:active
 {
     color: #fff; 
-    border-color: #975aff !important;
+    border-color: #7b2222 !important;
     outline: none;
-    background-color: #975aff !important;
+    background-color: #7b2222 !important;
     box-shadow: none !important;
 }
 .fc-button-primary:disabled
@@ -49,8 +49,8 @@
 .fc-button-primary.fc-button-active
 {
     color: #fff; 
-    border-color: #975aff !important;
-    background-color: #975aff !important;
+    border-color: #7b2222 !important;
+    background-color: #7b2222 !important;
 }
 
 td.fc-other-month.fc-past

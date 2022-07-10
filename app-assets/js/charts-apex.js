@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var $primary = "#975AFF",
+  var $primary = "#7b2222",
     $success = "#40C057",
     $info = "#2F8BE6",
     $warning = "#F77E17",

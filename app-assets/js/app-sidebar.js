@@ -485,7 +485,7 @@ $(document).ready(function () {
 
           $color = $(this).data('color');
           var $colors ={
-            'primary' : "#975AFF",
+            'primary' : "#7b2222",
             'success' : "#40C057",
             'danger' : "#F55252",
             'warning' : "#F77E17",
@@ -495,7 +495,7 @@ $(document).ready(function () {
               $colorCode = $colors[$color];
           }
           else{
-              $colorCode = "#975AFF";
+              $colorCode = "#7b2222";
           }
 
           var switchery = new Switchery($(this)[0], { className: $sizeClass, color: $colorCode });
@@ -506,7 +506,7 @@ $(document).ready(function () {
       for (i = 0; i < elems1.length; i++) {
           var $size = elems1[i].data('size');
           var $color = elems1[i].data('color');
-          var switchery = new Switchery(elems1[i], { color: '#975AFF' });
+          var switchery = new Switchery(elems1[i], { color: '#7b2222' });
       }
   }
   /*  Toggle Ends   */

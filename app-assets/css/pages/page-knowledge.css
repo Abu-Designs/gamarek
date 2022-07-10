@@ -29,7 +29,7 @@
 .kb-categories .kb-effect, .kb-question .kb-effect {
   transition: all 0.3s ease; }
   .kb-categories .kb-effect:hover, .kb-question .kb-effect:hover {
-    color: #975AFF !important;
+    color: #7b2222 !important;
     margin-left: 0.5rem; }
 
 .kb-categories .kb-categories-text, .kb-question .kb-categories-text {

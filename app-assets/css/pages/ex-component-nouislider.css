@@ -42,15 +42,15 @@
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #975AFF !important; }
+  border: 5px solid #7b2222 !important; }
   .noUi-handle:after, .noUi-handle:before {
     display: none; }
 
 .circle-filled .noUi-handle {
-  background: #975AFF; }
+  background: #7b2222; }
 
 .square .noUi-handle {
-  background: #975AFF;
+  background: #7b2222;
   border-radius: 3px; }
   .square .noUi-handle:before {
     display: block;
@@ -82,7 +82,7 @@
   top: 2px; }
 
 .noUi-connect {
-  background: #975AFF;
+  background: #7b2222;
   box-shadow: none;
   border-radius: 1rem; }
 
@@ -97,7 +97,7 @@
   .noUi-vertical .noUi-tooltip {
     margin-right: 0.2rem; }
   .noUi-vertical.square .noUi-handle {
-    background: #975AFF;
+    background: #7b2222;
     border-radius: 3px; }
     .noUi-vertical.square .noUi-handle:before {
       display: block;

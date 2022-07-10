@@ -67,7 +67,7 @@
         .email-application .email-app-sidebar .email-app-sidebar-content .list-group-messages a.list-group-item {
           border-radius: 0.35rem; }
           .email-application .email-app-sidebar .email-app-sidebar-content .list-group-messages a.list-group-item.active {
-            background-color: #975AFF !important;
+            background-color: #7b2222 !important;
             color: #fff !important; }
   .email-application .compose-new-mail-sidebar {
     height: calc(100vh - 7.5rem);
@@ -152,7 +152,7 @@
   .email-application .users-list-padding .selected-email {
     background-color: #eee;
     border: none;
-    border-right: 3px solid #975AFF !important; }
+    border-right: 3px solid #7b2222 !important; }
     .email-application .users-list-padding .selected-email:first-child, .email-application .users-list-padding .selected-email:last-child {
       border-radius: 0; }
 

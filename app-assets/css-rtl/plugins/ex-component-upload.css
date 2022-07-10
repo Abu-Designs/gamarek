@@ -2,7 +2,7 @@
 {
     min-height: 300px;
 
-    border: 2px dashed #975aff;
+    border: 2px dashed #7b2222;
     background: #f7f7f8;
 }
 .dropzone .dz-message
@@ -17,7 +17,7 @@
 
     text-align: center; 
 
-    color: #975aff;
+    color: #7b2222;
 }
 .dropzone .dz-message:before
 {
@@ -38,7 +38,7 @@
 
     content: '\e864';
 
-    color: #975aff;
+    color: #7b2222;
 
     -webkit-font-smoothing: antialiased;
 }

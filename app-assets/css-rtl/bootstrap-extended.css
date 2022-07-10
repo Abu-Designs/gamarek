@@ -213,7 +213,7 @@ p
     letter-spacing: .3px;
 
     color: #fff; 
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 .badge.badge-light
 {
@@ -378,7 +378,7 @@ button:focus
 
     color: #fff;
     border-radius: 50%;
-    background-color: #975aff;
+    background-color: #7b2222;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
 }
 .card .btn-floating.btn
@@ -531,7 +531,7 @@ button:focus
 .dropright .dropdown-menu .dropdown-item:active,
 .dropleft .dropdown-menu .dropdown-item:active
 {
-    background-color: #975aff !important;
+    background-color: #7b2222 !important;
 }
 .dropdown .dropdown-menu .dropdown-submenu,
 .dropup .dropdown-menu .dropdown-submenu,
@@ -799,7 +799,7 @@ button:focus
 .nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link.active
 {
     border-bottom: 0; 
-    border-left: 2px solid #975aff !important;
+    border-left: 2px solid #7b2222 !important;
 }
 .nav-vertical .nav-left ~ .tab-content .tab-pane
 {
@@ -832,7 +832,7 @@ button:focus
 }
 .nav-vertical .nav-right.nav-tabs li.nav-item a.nav-link.active
 {
-    border-right: 2px solid #975aff !important;
+    border-right: 2px solid #7b2222 !important;
     border-bottom: 0;
 }
 .nav-vertical .nav-right ~ .tab-content .tab-pane
@@ -861,7 +861,7 @@ button:focus
 }
 .nav-tabs .nav-link.active
 {
-    border-bottom: 2px solid #975aff;
+    border-bottom: 2px solid #7b2222;
 }
 
 .nav-tabs .nav-item.show .nav-link
@@ -1108,7 +1108,7 @@ nav.navbar.header-navbar .container-fluid
 {
     text-decoration: none; 
 
-    color: #975aff !important;
+    color: #7b2222 !important;
 }
 .navbar .navbar-container .navbar-nav .user
 {
@@ -1348,7 +1348,7 @@ h2.title
 
 .text-primary
 {
-    color: #975aff !important;
+    color: #7b2222 !important;
 }
 
 .text-danger
@@ -1829,7 +1829,7 @@ form label,
 }
 .form-control:focus ~ .form-control-position i
 {
-    color: #975aff;
+    color: #7b2222;
 }
 .form-control:not(:focus)::-webkit-input-placeholder
 {
@@ -2037,7 +2037,7 @@ form label,
 
     content: '';
 
-    border: 1px solid #975aff;
+    border: 1px solid #7b2222;
     border-radius: 50%;
 }
 .radio label::after
@@ -2055,7 +2055,7 @@ form label,
 
     opacity: 0;
     border-radius: 50%;
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 
 .radio.radio-sm input ~ label::before
@@ -2093,7 +2093,7 @@ form label,
             transform: rotate(45deg);
 
     border-width: 2px;
-    border-color: #975aff;
+    border-color: #7b2222;
     border-top-style: none;
     border-left-style: none;
     border-radius: 0;
@@ -2209,7 +2209,7 @@ form label,
     margin: 5px 0 5px 10px;
     padding: 4px 0 6px 28px;
 
-    color: #975aff;
+    color: #7b2222;
     border-radius: .35rem; 
     background: #efdeff;
 }
@@ -2220,7 +2220,7 @@ form label,
     color: #efdeff;
     border-top-right-radius: .35rem; 
     border-bottom-right-radius: .35rem;
-    background: #975aff;
+    background: #7b2222;
 }
 .form-control.tagging .tag .tag-i
 {
@@ -2231,7 +2231,7 @@ form label,
 
     text-decoration: none; 
 
-    color: #975aff;
+    color: #7b2222;
 }
 .form-control.tagging input.type-zone
 {

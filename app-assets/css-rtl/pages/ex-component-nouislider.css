@@ -70,7 +70,7 @@
     cursor: pointer;
 
     border: none;
-    border: 5px solid #975aff !important; 
+    border: 5px solid #7b2222 !important; 
     border-radius: 50%;
     box-shadow: none;
 }
@@ -82,13 +82,13 @@
 
 .circle-filled .noUi-handle
 {
-    background: #975aff;
+    background: #7b2222;
 }
 
 .square .noUi-handle
 {
     border-radius: 3px; 
-    background: #975aff;
+    background: #7b2222;
 }
 .square .noUi-handle:before
 {
@@ -138,7 +138,7 @@
 .noUi-connect
 {
     border-radius: 1rem; 
-    background: #975aff;
+    background: #7b2222;
     box-shadow: none;
 }
 
@@ -163,7 +163,7 @@
 .noUi-vertical.square .noUi-handle
 {
     border-radius: 3px; 
-    background: #975aff;
+    background: #7b2222;
 }
 .noUi-vertical.square .noUi-handle:before
 {

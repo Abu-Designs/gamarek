@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // color variable define here
-  var $primary = '#975AFF',
+  var $primary = '#7b2222',
     $primary_light = '#B583FF',
     $primary_dark = '#7441DB',
     $success = '#40C057',

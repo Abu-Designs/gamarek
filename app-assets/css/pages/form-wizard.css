@@ -27,7 +27,7 @@
       top: 43px;
       width: 50%;
       height: 5px;
-      background-color: #975AFF; }
+      background-color: #7b2222; }
     .wizard > .steps > ul > li:after {
       content: '';
       position: absolute;
@@ -36,13 +36,13 @@
       top: 43px;
       width: 50%;
       height: 5px;
-      background-color: #975AFF; }
+      background-color: #7b2222; }
     .wizard > .steps > ul > li:last-child:after {
       content: none; }
   .wizard > .steps > ul > li.current a {
-    color: #975AFF !important; }
+    color: #7b2222 !important; }
   .wizard > .steps > ul > li.current .step {
-    border-color: #975AFF !important; }
+    border-color: #7b2222 !important; }
   .wizard > .steps > ul > li.current:after {
     background-color: #F7F7F8; }
   .wizard > .steps > ul > li.current ~ li:before, .wizard > .steps > ul > li.current ~ li:after {
@@ -51,8 +51,8 @@
   .wizard > .steps > ul > li.done a {
     color: #342E49; }
   .wizard > .steps > ul > li.done .step {
-    background-color: #975AFF !important;
-    border-color: #975AFF !important;
+    background-color: #7b2222 !important;
+    border-color: #7b2222 !important;
     color: #fff; }
   .wizard > .steps > ul > li.error .step {
     border-color: #F55252 !important;
@@ -106,4 +106,4 @@
   .wizard > .steps > ul > li {
     width: 100%; }
   .wizard > .steps > ul > li.current:after {
-    background-color: #975AFF !important; } }
+    background-color: #7b2222 !important; } }

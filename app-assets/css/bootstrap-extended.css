@@ -112,7 +112,7 @@ p {
 
 .badge {
   letter-spacing: 0.3px;
-  background-color: #975AFF;
+  background-color: #7b2222;
   color: #fff; }
   .badge.badge-light {
     color: #342E49; }
@@ -203,7 +203,7 @@ button:focus {
     height: 40px;
     line-height: 40px;
     padding: 0;
-    background-color: #975AFF;
+    background-color: #7b2222;
     border-radius: 50%;
     transition: 0.3s;
     cursor: pointer;
@@ -303,7 +303,7 @@ button:focus {
     .dropup .dropdown-menu .dropdown-item:active,
     .dropright .dropdown-menu .dropdown-item:active,
     .dropleft .dropdown-menu .dropdown-item:active {
-      background-color: #975AFF !important; }
+      background-color: #7b2222 !important; }
   .dropdown .dropdown-menu .dropdown-submenu,
   .dropup .dropdown-menu .dropdown-submenu,
   .dropright .dropdown-menu .dropdown-submenu,
@@ -462,7 +462,7 @@ button:focus {
         min-width: 6.5rem;
         border-right: 1px solid #dee2e6; }
         .nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link.active {
-          border-right: 2px solid #975AFF !important;
+          border-right: 2px solid #7b2222 !important;
           border-bottom: 0; }
   .nav-vertical .nav-left ~ .tab-content .tab-pane {
     display: none;
@@ -481,7 +481,7 @@ button:focus {
         border-left: 1px solid #dee2e6;
         min-width: 6.5rem; }
         .nav-vertical .nav-right.nav-tabs li.nav-item a.nav-link.active {
-          border-left: 2px solid #975AFF !important;
+          border-left: 2px solid #7b2222 !important;
           border-bottom: 0; }
   .nav-vertical .nav-right ~ .tab-content .tab-pane {
     display: none;
@@ -498,7 +498,7 @@ button:focus {
   border: 0;
   border-radius: 0; }
   .nav-tabs .nav-link.active {
-    border-bottom: 2px solid #975AFF; }
+    border-bottom: 2px solid #7b2222; }
 
 .nav-tabs .nav-item.show .nav-link {
   background-color: transparent;
@@ -638,7 +638,7 @@ nav.navbar.header-navbar {
       color: #6c757d;
       font-size: 0.8rem; }
     .navbar .navbar-container .navbar-nav .notification-dropdown .noti-footer:hover, .navbar .navbar-container .navbar-nav .notification-dropdown .noti-footer:focus {
-      color: #975AFF !important;
+      color: #7b2222 !important;
       text-decoration: none; }
   .navbar .navbar-container .navbar-nav .user {
     flex-direction: column;
@@ -755,7 +755,7 @@ h2.title {
   color: #F77E17 !important; }
 
 .text-primary {
-  color: #975AFF !important; }
+  color: #7b2222 !important; }
 
 .text-danger {
   color: #F55252 !important; }
@@ -1039,7 +1039,7 @@ form label,
     transform: translate(5px);
     transition: all .3s ease; }
   .form-control:focus ~ .form-control-position i {
-    color: #975AFF; }
+    color: #7b2222; }
   .form-control:not(:focus)::placeholder {
     transition: all .3s ease; }
   .form-control::-webkit-input-placeholder {
@@ -1138,7 +1138,7 @@ form label,
   margin-bottom: 0; }
   .radio label::before {
     content: "";
-    border: 1px solid #975AFF;
+    border: 1px solid #7b2222;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -1148,7 +1148,7 @@ form label,
     content: "";
     height: 12px;
     width: 12px;
-    background-color: #975AFF;
+    background-color: #7b2222;
     border-radius: 50%;
     left: 4px;
     opacity: 0;
@@ -1174,7 +1174,7 @@ form label,
       transform: rotate(-45deg);
       height: 0.4rem;
       width: 0.8rem;
-      border-color: #975AFF;
+      border-color: #7b2222;
       border-radius: 0;
       border-width: 2px;
       top: 6px;
@@ -1246,11 +1246,11 @@ form label,
     padding: 4px 28px 6px 0;
     margin: 5px 10px 5px 0;
     background: #EFDEFF;
-    color: #975AFF;
+    color: #7b2222;
     border-radius: 0.35rem; }
     .form-control.tagging .tag span {
       padding: 5px 12px 8px;
-      background: #975AFF;
+      background: #7b2222;
       color: #EFDEFF;
       border-bottom-left-radius: 0.35rem;
       border-top-left-radius: 0.35rem; }
@@ -1258,7 +1258,7 @@ form label,
       font-size: 1.5rem;
       top: 0.95rem;
       right: 0.65rem;
-      color: #975AFF;
+      color: #7b2222;
       text-decoration: none; }
   .form-control.tagging input.type-zone {
     min-width: 0;

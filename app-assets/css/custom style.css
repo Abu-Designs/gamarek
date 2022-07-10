@@ -95,7 +95,7 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
 .text-enaby{
     color: #7b2222 !important;
 }
-.side-table th, .table td {
+.side-table th, .side-table .table td {
     padding: 1.15rem 0rem;}
     .profile-pic{
         border-radius:50px ;
@@ -121,7 +121,7 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
     }
     .form-control:focus{
         background-color: #fff;
-        border: solid 1px #250221;
+        border: solid 1px #a398a2;
     }
     .custom-file-label {
       
@@ -158,4 +158,46 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
     }
     .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
         border-color: #7b2222;
+    }
+    .picker__day--highlighted, .picker__day--highlighted:hover, .picker--focused .picker__day--highlighted {
+        border-radius: 0.35rem;
+        background-color: #7b2222 !important;
+    }
+    .input-group-text {
+       
+        color: #fff;
+        border: 1px solid #e0e0e0;
+       
+        background-color: #7b2222;
+        
+    }
+     .form-control[readonly]{
+        background-color: #fff !important;
+     }
+     .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+      
+        border-color: #7b2222;
+        background-color: #250221;
+    }
+    .radio label::before {
+     
+        border: 1px solid #7b2222;
+    
+    }
+    .radio label::after {
+    
+        background-color: #7b2222;
+    }
+    .nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link {
+     
+        width: 150px;
+    }
+    .bg-primary.bg-lighten-4{
+        border: 1px solid #a392a1;
+    }
+    .nav-tabs li a{
+        color: #250221;
+    }
+    .nav-tabs li a:hover{
+        color: #7b2222;
     }

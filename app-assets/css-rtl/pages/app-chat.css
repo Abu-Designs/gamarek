@@ -120,7 +120,7 @@
 }
 .chat-application .chat-sidebar .users-list-padding .selected-chat
 {
-    border-left: 3px solid #975aff; 
+    border-left: 3px solid #7b2222; 
     background-color: #eee;
 }
 .chat-application .chat-name
@@ -180,7 +180,7 @@
 
     color: #fff;
     border-radius: 4px; 
-    background-color: #975aff;
+    background-color: #7b2222;
 }
 .chat-application .chats .chat-body .chat-content:before
 {
@@ -194,7 +194,7 @@
     content: '';
 
     border: 5px solid transparent;
-    border-right-color: #975aff;
+    border-right-color: #7b2222;
 }
 .chat-application .chats .chat-body .chat-content + .chat-content:before
 {
