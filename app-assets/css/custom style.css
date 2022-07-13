@@ -201,3 +201,19 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
     .nav-tabs li a:hover{
         color: #7b2222;
     }
+    .form label, .form-group label {
+    
+        color: #7b2222;
+    }
+    .form-control-position .btn-primary{
+        padding-right: 13px;
+        padding-left: 13px;
+        color: #a398a2;
+    }
+ 
+    .search-box .form-control:focus ~ .form-control-position i{
+        color: #fff;
+    }
+    .form-control:disabled, .form-control[readonly]{
+        border-color:#CBC3CA ;
+    }
