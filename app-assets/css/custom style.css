@@ -5,6 +5,10 @@
     background-image: url(../img/Image\ 30.png)
  
 }
+body .app-sidebar .navigation li.sidebar-group-active:not(.open) {
+    border-left: solid 5px #f8f7f8;
+   
+}
 .auth-page:not(.layout-dark){
     background-image: url(../img/Image\ 30.png),
     linear-gradient(-90deg, #e5e5e5, #7b2222)!important
