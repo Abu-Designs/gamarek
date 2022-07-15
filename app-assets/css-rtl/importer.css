@@ -16,7 +16,8 @@
 @import url(themes/layout-dark.css);
 @import url(plugins/switchery.css);
 @import url(pages/dashboard1.css);
-@import url(../css/custom\ style.css);
 @import url(../vendors/css/pickadate/pickadate.css);
 @import url(custom-rtl.css);
+@import url(../css/custom-style.css);
+
 

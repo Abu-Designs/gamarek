@@ -16,8 +16,14 @@
 @import url(plugins/switchery.css);
 @import url(pages/dashboard1.css);
 @import url(../vendors/css/pickadate/pickadate.css);
-@import url(custom\ style.css);
+@import url(custom-style.css);
 
 
 
 
+body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
+    border-left: none
+}
+.nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link.active {
+    border-bottom: 0;
+    border-left: none !important}

@@ -2090,7 +2090,7 @@ body[data-menu="vertical-menu"] .app-sidebar .navigation li.active > a:before {
   top: 0;
   width: 100%;
   height: 100%;
-  border-right: solid 5px #F55252;
+  border-right: solid 5px #fff;
   background: rgba(224, 224, 224, 0.2);
   transition: 0.35s ease left; }
 
@@ -2438,10 +2438,10 @@ body[data-menu="horizontal-menu"] .app-sidebar .navigation li.active > a:before 
     .app-sidebar[data-background-color="purple-bliss"] .sidebar-header a.nav-close {
       color: #fff; }
   .app-sidebar[data-background-color="man-of-steel"] {
-    background-image: linear-gradient(135deg, #2F3EA0, #AE342D);
+    background-image: linear-gradient(135deg, #8A1739, #250221);
     background-repeat: repeat-x; }
     .app-sidebar[data-background-color="man-of-steel"] .sidebar-background:after {
-      background-image: linear-gradient(135deg, #2F3EA0, #AE342D);
+      background-image: linear-gradient(135deg, #8A1739, #250221);
       background-repeat: repeat-x;
       opacity: 0.95; }
     .app-sidebar[data-background-color="man-of-steel"] .navigation i, .app-sidebar[data-background-color="man-of-steel"] .navigation li > a {

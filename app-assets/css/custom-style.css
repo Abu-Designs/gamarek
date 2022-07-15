@@ -361,3 +361,24 @@ body[data-menu='vertical-menu'] .app-sidebar .navigation li.active > a:before {
         top: 25px;
         right: 10px;
       }
+      .gradient-pomegranate {
+        background-image: -webkit-linear-gradient(135deg, #8A1739, #DC7890);
+        background-image: linear-gradient(-45deg, #8A1739, #DC7890);
+        background-repeat: repeat-x;
+    }
+    .app-sidebar[data-background-color='man-of-steel'] {
+        background-image: -webkit-linear-gradient(225deg, #8A1739, #250221);
+        background-image: linear-gradient(-135deg, #8A1739, #250221);
+        background-repeat: repeat-x;}
+        .navbar-bg {
+            background-color: white;
+            box-shadow: 8px 8px 14px 0 rgb(203 195 202 / 55%);
+        }
+    
+         
+        @media (max-width: 576px) {
+            .nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link {
+                width: 90px;
+              }
+            
+           }
